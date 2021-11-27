@@ -31,6 +31,7 @@ If a patient's true class is 4 and they are correctly classified, their NET_BENE
 The medical institution would like you to evaluate the use of a K-Nearest-Neighbor classifier as a starting point. You agree to do so, as long as you then can choose a different classifier if you are not satisfied with KNN.
 
 Projection3:
+
 In this lab, you will perform clustering on three datasets. Your will choose suitable clustering algorithms, evaluate them on the datasets, and compare their performance.
 Datasets:
 The file small_Xydf.csv is a two-dimensional dataset with 200 records. It contains columns X0, X1, and y. The y column is the actual cluster number that was produced by the dataset generation algorithm. Do not use it for the clustering algorithm. It will be used to evaluate your clustering algorithm below.
