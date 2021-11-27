@@ -29,3 +29,12 @@ So, for example:
 If a patient's true class is 4 and their predicted class is 0, their NET_BENEFIT = 0 - 100 = -100
 If a patient's true class is 4 and they are correctly classified, their NET_BENEFIT is 500*(4+1) - 500 = 2000
 The medical institution would like you to evaluate the use of a K-Nearest-Neighbor classifier as a starting point. You agree to do so, as long as you then can choose a different classifier if you are not satisfied with KNN.
+
+Projection3:
+In this lab, you will perform clustering on three datasets. Your will choose suitable clustering algorithms, evaluate them on the datasets, and compare their performance.
+Datasets:
+The file small_Xydf.csv is a two-dimensional dataset with 200 records. It contains columns X0, X1, and y. The y column is the actual cluster number that was produced by the dataset generation algorithm. Do not use it for the clustering algorithm. It will be used to evaluate your clustering algorithm below.
+The file large1_Xydf.csv is a two-dimensional dataset with 3000 records. It contains columns X0, X1, and y. The y column is the actual cluster number that was produced by the dataset generation algorithm. Do not use it for the clustering algorithm. It will be used to evaluate your clustering algorithm below.
+The file large2_Xydf.csv is another two-dimensional dataset with 3000 records, and characteristics different from the “large1” dataset. It contains columns X0, X1, and y. The y column is the actual cluster number that was produced by the dataset generation algorithm. Do not use it for the clustering algorithm. It will be used to evaluate your clustering algorithm below.
+Approach:
+This homework makes use of the Clustering Algorithms offered by the SciKitLearn Library. Study the information at https://scikit-learn.org/stable/modules/clustering.html. Follow the guidance in the individual sections below.
