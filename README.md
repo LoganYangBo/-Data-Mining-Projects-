@@ -42,3 +42,14 @@ This homework makes use of the Clustering Algorithms offered by the SciKitLearn 
 
 # Projection4:
 
+In this lab, you will use the "hw5_data.csv" dataset provided on Carmen to find potential association rules.
+The objectives of this assignment are:
+1.    Practice the Association Analysis content we covered this semester.
+2.    Understand “why” the particular topics, techniques, etc., are important from a practical perspective.
+3.    Understand how to choose and use appropriate tools to solve the provided problems.
+- This workbook contains is a market basket dataset containing 50 transactions, drawing from a universe of six items: Apples, Bananas, Carrots, Donuts, Eggs, Fish.  For simplicity, use the short form “A, B, C, D, E, F” for the items.
+- There is one csv file that captures the data in "long format". Specifically, every row corresponds to the transaction id and the item. If the specific transaction id has multiple items, you will have multiple rows in your data.
+- You can use it however you like but it is recommended you convert into the one-hot-encoded datastructure we used in class. This will allow you to easily use the mlxtend package.
+To make everyone's lives a little easier, when writing itemsets and rules, please list them in lexagraphical order:
+{A}, {B}, {A,B}, {A,C}, {A,B,C},…
+{A,B,C}->{D}, {A,B}->{C,D}
